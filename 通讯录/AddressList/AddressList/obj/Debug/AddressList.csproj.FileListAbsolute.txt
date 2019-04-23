@@ -1,0 +1,16 @@
+C:\Users\Administrator\source\repos\通讯录\AddressList\AddressList\obj\Debug\AddressList.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\通讯录\AddressList\AddressList\obj\Debug\AddressList.Properties.Resources.resources
+C:\Users\Administrator\source\repos\通讯录\AddressList\AddressList\obj\Debug\AddressList.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\通讯录\AddressList\AddressList\obj\Debug\AddressList.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\通讯录\AddressList\AddressList\bin\Debug\AddressList.exe.config
+C:\Users\Administrator\source\repos\通讯录\AddressList\AddressList\bin\Debug\AddressList.exe
+C:\Users\Administrator\source\repos\通讯录\AddressList\AddressList\bin\Debug\AddressList.pdb
+C:\Users\Administrator\source\repos\通讯录\AddressList\AddressList\bin\Debug\MySql.Data.dll
+C:\Users\Administrator\source\repos\通讯录\AddressList\AddressList\obj\Debug\AddressList.csproj.CopyComplete
+C:\Users\Administrator\source\repos\通讯录\AddressList\AddressList\obj\Debug\AddressList.exe
+C:\Users\Administrator\source\repos\通讯录\AddressList\AddressList\obj\Debug\AddressList.pdb
+C:\Users\Administrator\source\repos\通讯录\AddressList\AddressList\obj\Debug\AddressList.Insert.resources
+C:\Users\Administrator\source\repos\通讯录\AddressList\AddressList\obj\Debug\AddressList.Delete.resources
+C:\Users\Administrator\source\repos\通讯录\AddressList\AddressList\obj\Debug\AddressList.MainForm.resources
+C:\Users\Administrator\source\repos\通讯录\AddressList\AddressList\obj\Debug\AddressList.Login.resources
+C:\Users\Administrator\source\repos\通讯录\AddressList\AddressList\obj\Debug\AddressList.Search.resources

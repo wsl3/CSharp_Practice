@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "继承与多态1", "继承与多态1\继承与多态1.csproj", "{954EA8B5-8933-46F2-910D-D43490F3C61B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{954EA8B5-8933-46F2-910D-D43490F3C61B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{954EA8B5-8933-46F2-910D-D43490F3C61B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{954EA8B5-8933-46F2-910D-D43490F3C61B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{954EA8B5-8933-46F2-910D-D43490F3C61B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE8BA2A3-480A-436D-BE78-A95C0B12CDCB}
+	EndGlobalSection
+EndGlobal

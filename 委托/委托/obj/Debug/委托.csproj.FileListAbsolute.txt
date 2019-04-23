@@ -1,0 +1,7 @@
+C:\Users\Administrator\source\repos\委托\委托\bin\Debug\委托.exe.config
+C:\Users\Administrator\source\repos\委托\委托\bin\Debug\委托.exe
+C:\Users\Administrator\source\repos\委托\委托\bin\Debug\委托.pdb
+C:\Users\Administrator\source\repos\委托\委托\obj\Debug\委托.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\委托\委托\obj\Debug\委托.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\委托\委托\obj\Debug\委托.exe
+C:\Users\Administrator\source\repos\委托\委托\obj\Debug\委托.pdb

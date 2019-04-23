@@ -1,0 +1,12 @@
+C:\Users\Administrator\source\repos\文本编辑\文本编辑\obj\Debug\文本编辑.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\文本编辑\文本编辑\obj\Debug\note.Form1.resources
+C:\Users\Administrator\source\repos\文本编辑\文本编辑\obj\Debug\note2.Form2.resources
+C:\Users\Administrator\source\repos\文本编辑\文本编辑\obj\Debug\note2.Form3.resources
+C:\Users\Administrator\source\repos\文本编辑\文本编辑\obj\Debug\文本编辑.Properties.Resources.resources
+C:\Users\Administrator\source\repos\文本编辑\文本编辑\obj\Debug\文本编辑.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\文本编辑\文本编辑\obj\Debug\文本编辑.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\文本编辑\文本编辑\bin\Debug\文本编辑.exe.config
+C:\Users\Administrator\source\repos\文本编辑\文本编辑\bin\Debug\文本编辑.exe
+C:\Users\Administrator\source\repos\文本编辑\文本编辑\bin\Debug\文本编辑.pdb
+C:\Users\Administrator\source\repos\文本编辑\文本编辑\obj\Debug\文本编辑.exe
+C:\Users\Administrator\source\repos\文本编辑\文本编辑\obj\Debug\文本编辑.pdb

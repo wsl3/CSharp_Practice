@@ -1,0 +1,6 @@
+C:\Users\Administrator\source\repos\异常\异常\bin\Debug\异常.exe.config
+C:\Users\Administrator\source\repos\异常\异常\bin\Debug\异常.exe
+C:\Users\Administrator\source\repos\异常\异常\bin\Debug\异常.pdb
+C:\Users\Administrator\source\repos\异常\异常\obj\Debug\异常.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\异常\异常\obj\Debug\异常.exe
+C:\Users\Administrator\source\repos\异常\异常\obj\Debug\异常.pdb

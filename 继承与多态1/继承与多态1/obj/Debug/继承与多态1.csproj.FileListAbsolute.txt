@@ -1,0 +1,7 @@
+C:\Users\Administrator\source\repos\继承与多态1\继承与多态1\bin\Debug\继承与多态1.exe.config
+C:\Users\Administrator\source\repos\继承与多态1\继承与多态1\bin\Debug\继承与多态1.exe
+C:\Users\Administrator\source\repos\继承与多态1\继承与多态1\bin\Debug\继承与多态1.pdb
+C:\Users\Administrator\source\repos\继承与多态1\继承与多态1\obj\Debug\继承与多态1.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\继承与多态1\继承与多态1\obj\Debug\继承与多态1.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\继承与多态1\继承与多态1\obj\Debug\继承与多态1.exe
+C:\Users\Administrator\source\repos\继承与多态1\继承与多态1\obj\Debug\继承与多态1.pdb
