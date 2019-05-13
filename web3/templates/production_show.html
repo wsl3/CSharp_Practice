@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Production管理系统</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="shortcut icon" href="../static/base/images/logo.png">
+    <link rel="stylesheet" href="../static/admin/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/fonts/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../static/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="../static/admin/dist/css/AdminLTE.min.css">
+    <link rel="stylesheet" href="../static/admin/dist/css/skins/_all-skins.min.css">
+    <link rel="stylesheet" type="text/css" href="../static/admin/plugins/datepicker/datepicker3.css">
+    <style>
+        * {
+            font-family: "Microsoft YaHei";
+        }
+
+        .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+            vertical-align: middle;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="">
+
+    <!--内容-->
+    <section class="content-header">
+        <h1>管理系统: 1.<a href="{{url_for('addProduction')}}">添加Production</a> &nbsp;2.<a href="{{url_for('logout')}}">logout</a></h1>
+        <ol class="breadcrumb">
+            <li><a href="#"><i class="fa fa-dashboard"></i> Production管理</a></li>
+            <li class="active">Production列表</li>
+        </ol>
+    </section>
+    <section class="content" id="showcontent">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box box-primary">
+
+                    <div class="box-body table-responsive no-padding">
+                        <table class="table table-hover">
+                            <tbody class="tbody">
+                            <tr>
+                                <th>ID</th>
+                                <th>name</th>
+                                <th>info</th>
+                                <th>时间</th>
+                                <th>操作</th>
+                            </tr>
+                            {% for p in productions %}
+                            <tr>
+                                <td>{{p.id}}</td>
+                                <td>{{p.name}}</td>
+                                <td>{{p.info}}</td>
+                                <td>{{p.timestamp}}</td>
+                                <td>
+                                    <a class="label label-danger" href="{{url_for('delProduction',id=p.id)}}">删除</a>
+                                </td>
+                            </tr>
+                            {%endfor%}
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--内容-->
+
+</div>
+<script src="../static/admin/plugins/jQuery/jQuery-2.2.0.min.js"></script>
+<script src="../static/admin/bootstrap/js/bootstrap.min.js"></script>
+<script src="../static/admin/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+<script src="../static/admin/plugins/fastclick/fastclick.js"></script>
+<script src="../static/admin/dist/js/app.min.js"></script>
+<script src="../static/admin/dist/js/demo.js"></script>
+<script src="//cdn.bootcss.com/holder/2.9.4/holder.min.js"></script>
+<script src="../static/admin/plugins/datepicker/bootstrap-datepicker.js"></script>
+<script src="../static/admin/plugins/datepicker/locales/bootstrap-datepicker.zh-CN.js" charset="UTF-8"></script>
+
+
+<script type="text/javascript">
+    //开始时发送第一个界面,设置page和base url
+    var page = 1;
+    var post_url = '{{url_for("admin")}}';
+    var del_url = '{{url_for("delProduction")}}';
+    $(function () {
+
+        $(window).scroll(function () {
+
+            //滚动条滑到最低
+            if ($(window).scrollTop() == $(document).height() - $(window).height()) {
+                page += 1;
+                //ajax 向下一个页面发送请求
+                $.ajax({
+                    type: 'POST',
+                    url: post_url + page,
+                    contentType: 'application/json; charset=UTF-8', //指定传递给服务器的是Json格式数据
+                    dataType: 'json',//希望服务器返回json格式的数据
+                    success: function (data) {
+                        for (var i = 0; i < data["comment"].length; i++) {
+                            var temp = "<tr>" + "<td>" + data["comment"][i]["id"] + "</td>" +
+                                "<td>" + data["comment"][i]["name"] + "</td>" +
+                                "<td>" + data["comment"][i]["info"] + "</td>" +
+                                "<td>" + data["comment"][i]["timestamp"] + "</td>" +
+                                "<td>" + '<a class="label label-danger" href=' + del_url + data["comment"][i]["id"] + '>删除</a></td></tr>';
+                            $('.tbody').append(temp);
+                        }
+
+                    }
+                });
+
+            }
+
+        })
+
+    })
+
+</script>
+
+</body>
+</html>
