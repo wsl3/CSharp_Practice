@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Production管理系统</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="shortcut icon" href="../static/base/images/logo.png">
+    <link rel="stylesheet" href="../static/admin/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/fonts/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../static/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="../static/admin/dist/css/AdminLTE.min.css">
+    <link rel="stylesheet" href="../static/admin/dist/css/skins/_all-skins.min.css">
+    <link rel="stylesheet" type="text/css" href="../static/admin/plugins/datepicker/datepicker3.css">
+    <style>
+        * {
+            font-family: "Microsoft YaHei";
+        }
+
+        .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+            vertical-align: middle;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="">
+
+    <!--内容-->
+    <section class="content-header">
+        <h1>管理系统:<a href="{{url_for('addProduction')}}">添加Production</a></h1>
+        <ol class="breadcrumb">
+            <li><a href="#"><i class="fa fa-dashboard"></i> Production管理</a></li>
+            <li class="active">Productions</li>
+        </ol>
+    </section>
+    <section class="content" id="showcontent">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box box-primary">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">添加Production</h3>
+                    </div>
+                    <form role="form" method="post">
+                        <div class="box-body">
+                            <div class="form-group">
+                                <label for="input_title">Production Name</label>
+                                <input type="text" class="form-control" id="input_title" placeholder="请输入Production Name！" name="name">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="input_info">Production Info</label>
+                                <textarea class="form-control" rows="10" id="input_info" name="info"></textarea>
+                            </div>
+
+
+                        </div>
+                        <div class="box-footer">
+                            <input type="submit" class="btn btn-primary" value="添加">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--内容-->
+
+</div>
+<script src="../static/admin/plugins/jQuery/jQuery-2.2.0.min.js"></script>
+<script src="../static/admin/bootstrap/js/bootstrap.min.js"></script>
+<script src="../static/admin/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+<script src="../static/admin/plugins/fastclick/fastclick.js"></script>
+<script src="../static/admin/dist/js/app.min.js"></script>
+<script src="../static/admin/dist/js/demo.js"></script>
+<script src="//cdn.bootcss.com/holder/2.9.4/holder.min.js"></script>
+<script src="../static/admin/plugins/datepicker/bootstrap-datepicker.js"></script>
+<script src="../static/admin/plugins/datepicker/locales/bootstrap-datepicker.zh-CN.js" charset="UTF-8"></script>
+
+
+</body>
+</html>
